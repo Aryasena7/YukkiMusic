@@ -9,7 +9,7 @@
 
 HELP_1 = """✅**<u>Admin Commands:</u>**
 
-**c** adalah singkatan dari pemutaran saluran.
+**c** adalah singkatan dari pemutaran ch/channel.
 
 /pause atau /cpause - Menjeda musik yang sedang diputar.
 /resume atau /cresume- Melanjutkan musik yang dijeda.
@@ -64,7 +64,7 @@ Perintah ForcePlay = playforce , vplayforce , cplayforce
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
 
-/stats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll..
+/gstats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll..
 
 /sudolist - Periksa Sudo Pengguna Stuf Music Bot
 
@@ -79,12 +79,12 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 /queue or /cqueue- Check Queue List of Music."""
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
-/start - Mulai Bot Musik.
-/help - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
-/ping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
+/mstart - Mulai Bot Musik.
+/mhelp - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
+/stuf - Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 
 ✅<u>**Group Settings:**</u>
-/settings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
+/msettings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
 
 🔗 **Options in Settings:**
 
@@ -132,8 +132,8 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /autoend [enable|disable] - Aktifkan Auto stream end setelah 3 menit jika tidak ada yang mendengarkan.
 
 📈**<u>STATS COMMANDS:</u>**
-/voice - Periksa obrolan suara aktif di bot.
-/video - Periksa panggilan video aktif di bot.
+/vc - Periksa obrolan suara aktif di bot.
+/vid - Periksa panggilan video aktif di bot.
 /stats - Periksa Statistik Bot
 
 ⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
@@ -147,8 +147,8 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /blockedusers - Periksa Daftar Pengguna yang diblokir
 
 👤**<u>GBAN FUNCTION:</u>**
-/gban [Nama Pengguna atau Balas ke pengguna] - Gban pengguna dari obrolan yang dilayani bot dan hentikan dia menggunakan bot Anda.
-/ungban [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
+/mgban [Nama Pengguna atau Balas ke pengguna] - Gban pengguna dari obrolan yang dilayani bot dan hentikan dia menggunakan bot Anda.
+/mungban [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
 /gbannedusers - Periksa Daftar Pengguna Gbanned
 
 🎥**<u>VIDEOCALLS FUNCTION:</u>**
